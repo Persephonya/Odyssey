@@ -1,0 +1,119 @@
+.body {
+	background-color: #FAF2E6;
+}
+		
+#maintitle {
+	font-family: Verdana;
+	margin-top: 300px;
+	text-align: center;
+	font-size: 100px;
+	color: #FAF2E6;
+	text-shadow: 0 0 5px black;
+}
+		
+#mainsubtitle {
+	text-align: center;
+	font-family: Verdana;
+	color: #FAF2E6;
+	text-shadow: 0 0 5px black;
+}
+
+.headline {
+	margin-top: 75px;
+	text-align: center;
+	font-family: Verdana;
+}
+
+h2 {
+	text-align: center;
+}
+
+.nav {
+	position: fixed;
+	top: 0; 
+	left: 0;
+	z-index: 1;
+	float: right;
+	background-image: url('nav.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 40px;
+}
+
+.nav a {
+	color: #FAF2E6;
+	text-shadow: 0 0 5px black;
+	font-family: Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 30px 30px 30px 30px;
+}
+	
+
+
+.nav .active:hover {
+	color: white;
+}
+
+.nav .inactive {
+	text-decoration: underline;
+}
+
+.deco {
+	position: fixed;
+	top: 0;
+	top: 50;
+	margin-top: 25px;
+	background-image: url('pattern.svg');
+	background-repeat: repeat;
+	width: 100%;
+	height: 50px;
+	left: 0;
+	z-index: 1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+	
+
+#map {
+	margin-left: 300px;
+	margin-top: 50px;
+	position: relative; /* Füge diese Zeile hinzu */
+    z-index: 0; /* Füge diese Zeile hinzu */
+    height: 500px;
+    width: 900px;
+    }
+		
+   
+#ship {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+	
+#mainbody {
+	background-image: url("curacao.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+		
+.hero-image {
+	width="150";
+}
