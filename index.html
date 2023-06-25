@@ -9,14 +9,18 @@
 
 <body id="mainbody">
     <h1 id="maintitle">THE ODYSSEY</h1>
-    <h2 id="mainsubtitle">An interactive rendition of the world's most famous roadtrip</h2>
+    <h2 id="mainsubtitle">Welcome to the world's most famous roadtrip! </h2>
+	<h2 id="mainsubtitle">Please choose how you want to experience it:</h2>
 	
-<div class="nav">
-	<a class="navbox">HOME</a>
-	<a href="characters.html" class="navbox">CHARACTERS</a>
-	<a href="storymap.html" class="navbox">STORY MAP</a>
-	<a href="interactivemap.html" class="navbox">INTERACTIVE MAP</a>
-	<a href="additionalinfo.html" class="navbox">ADDITIONAL INFORMATION</a>
+	<div class="button" id="button1"><a class="textbutton" href="storymap.html">Please take me to the guided tour!</a></div> 
+	<div class="button" id="button2"><a class="textbutton" href="interactivemap.html">I prefer to explore on my own!</a></div> 
+	
+<div class="homenav">
+	<a class="inactive">HOME</a>
+	<a href="characters.html" class="active">CHARACTERS</a>
+	<a href="storymap.html" class="active">STORY MAP</a>
+	<a href="interactivemap.html" class="active">INTERACTIVE MAP</a>
+	<a href="additionalinfo.html" class="active">ADDITIONAL INFORMATION</a>
 </div>
 
 <svg id="ship"
@@ -30,8 +34,7 @@
    id="svg3336"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="300"
-   height="300"
+
    viewBox="0 0 611.25 575.625"
    sodipodi:docname="AncientGreekBoat.svg">
   <metadata
