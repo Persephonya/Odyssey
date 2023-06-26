@@ -168,15 +168,16 @@ h2 {
 	position: absolute;
 	max-width: 800px;
 	width: 50vw;
-	color: black;
 }
 
 #popuppic {
-	max-height: 15vw;
-	max-width: 20vw;
+	max-height: 12vw;
+	max-width: 16vw;
 	float: right;
+	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
+	padding-top: 10px;
 	margin-top: 10px;
 }
 
@@ -187,10 +188,16 @@ h2 {
 }
 
 
-.popcontent a {
+.popupcontainer a {
 	font-family: arial;
-	font-size: 2vw;
+	font-size: 1.2vw;
 	color: black;
+	align-content: justify;
+}
+
+.popupcontainer h3 {
+	font-family: arial;
+	font-size: 1.3vw;
 }
    
    
