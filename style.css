@@ -171,14 +171,17 @@ h2 {
 }
 
 #popuppic {
-	height: 12vw;
+	max-height: 12vw;
 	float: right;
-	padding: 5px 5px 5px 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
 .popupcontainer {
-	width: 50vw;
+	width: 45vw;
 	height: fit-content;
 	font-size: 12px;
 }
