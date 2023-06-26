@@ -185,6 +185,7 @@ h2 {
 	width: 45vw;
 	height: fit-content;
 	font-size: 12px;
+	max-width: 500px;
 }
 
 
