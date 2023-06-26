@@ -166,13 +166,14 @@ h2 {
 
 .leaflet-popup {
 	position: absolute;
-	width: 800px;
+	max-width: 800px;
+	width: 50vw;
 	color: black;
 }
 
 #popuppic {
-	max-height: 300px;
-	max-width: 300px;
+	max-height: 15vw;
+	max-width: 20vw;
 	float: right;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -181,22 +182,14 @@ h2 {
 
 
 .popupcontainer {
-	width: 700px;
-	height: 500px;
+	width: 45vw;
+	height: fit-content;
 }
 
-.popcontent {
-	width: 700px;
-	height: fit-content;
-    background:white;
-    position:absolute;
-    padding:20px;
-	z-index:1; 
-}
 
 .popcontent a {
 	font-family: arial;
-	font-size: 12px;
+	font-size: 2vw;
 	color: black;
 }
    
