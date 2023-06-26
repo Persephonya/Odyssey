@@ -155,9 +155,9 @@ h2 {
 	position: fixed; 
 	bottom: 0;
 	left: 0;
-        z-index: 1;
-        height: 80%;
-        width: 90%;
+    z-index: 1;
+    height: 80%;
+    width: 90%;
 	margin-left: 5%;
 	border-style: double;
 	border-color: black;
@@ -193,16 +193,13 @@ h2 {
     background:white;
     position:absolute;
     padding:20px;
-    border:1px solid #ccc;
 	z-index:1; 
-	align-content: justify;
 }
 
 .popcontent a {
 	font-family: arial;
 	font-size: 12px;
 	color: black;
-	align-content: justify;
 }
    
    
@@ -260,10 +257,9 @@ h2 {
 #storymap {
 	position: fixed; 
 	bottom: 0;
-	left: 0;
-        z-index: 0;
-        height: 80%;
-        width: 90%;
+    z-index: 0;
+    height: 80%;
+    width: 90%;
 	margin-left: 5%;
 	border-style: double;
 	border-color: black;
