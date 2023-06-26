@@ -174,32 +174,29 @@ h2 {
 	max-height: 12vw;
 	max-width: 16vw;
 	float: right;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
-	margin-top: 10px;
+	padding: 0.5vw;
+	margin-top: 0.5vw;
 }
 
 
 .popupcontainer {
 	width: 45vw;
 	height: fit-content;
-	font-size: 12px;
+	font-size: 1.2vw;
 	max-width: 500px;
 }
 
 
 .popupcontainer a {
 	font-family: arial;
-	font-size: 12px;
+	font-size: 1.2vw;
 	color: black;
 	align-content: justify;
 }
 
 .popupcontainer h3 {
 	font-family: arial;
-	font-size: 14px;
+	font-size: 1.3vw;
 }
    
    
