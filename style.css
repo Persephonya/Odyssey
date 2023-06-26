@@ -1,36 +1,37 @@
-.body {
-	background-color: #FAF2E6;
-}
-		
 #maintitle {
 	font-family: Verdana;
 	margin-top: 300px;
 	text-align: center;
-	font-size: 100px;
+	font-size: 5vw;
 	color: #FAF2E6;
-	text-shadow: 0 0 5px black;
+	text-shadow: 0 0 0.5vw black;
+	z-index: 1;
 }
-		
+
+	
 #mainsubtitle {
+	
 	text-align: center;
 	font-family: Verdana;
 	color: #FAF2E6;
-	text-shadow: 0 0 5px black;
+	font-size: 2vw;
+	text-shadow: 0 0 0.5vw black;
 }
 
 .headline {
-	margin-top: 75px;
+	margin-top: 65px;
 	text-align: center;
 	font-family: Verdana;
-	font-size: 40px;
+	font-size: 2.5vw;
 	text-decoration: underline overline 1px double;
 	color: black;
+	padding-bottom: 5px;
 }
 
 h2 {
 	font-family: Verdana;
 	text-align: center;
-	font-size: 30px;
+	font-size: 3vw;
 }
 
 .nav {
@@ -52,8 +53,8 @@ h2 {
 	font-family: Verdana;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 27px;
-	padding: 30px 30px 30px 30px;
+	font-size: 1.6vw;
+	padding: 2.5vw;
 }
 	
 .nav .active:hover {
@@ -88,8 +89,8 @@ h2 {
 	font-family: Verdana;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 27px;
-	padding: 30px 30px 30px 30px;
+	font-size: 1.6vw;
+	padding: 2.5vw;
 }
 	
 
@@ -109,41 +110,41 @@ h2 {
 }
 
 #hero {
-	height: 300px;
+	max-height: 300px;
+	height: 40vw;
 	float: right;
-	padding: 20px;
+	padding: 2vw;
 }
 
 #women {
-	height: 300px;
+	max-height: 300px;
+	height: 40vw;
 	float: left;
-	padding: 20px;
+	padding: 2vw;
 }
 
 #family {
-	height: 300px;
+	max-height: 300px;
+	height: 40vw;
 	float: left;
-	padding: 20px;
+	padding: 2vw;
 }	
 
 #monsters {
-	height: 150px;
+	max-height: 150px;
+	height: 20vw;
 	float: right;
-	padding: 50px;
-	margin-top: 20px;
+	padding: 2vw;
 }
 
 #gods {
-	height: 300px;
+	max-height: 300px;
+	height: 40vw;
 	float: right;
-	padding: 20px;
+	padding: 2vw;
 }
 
-#people {
-	height: 300px;
-	float: right;
-	padding: 20px;
-}
+
 .main {
   margin-left: 160px; 
   padding: 0px 10px;
@@ -156,12 +157,9 @@ h2 {
 	bottom: 0;
 	left: 0;
     z-index: 1;
-    height: 80%;
+    height: 80vh;
     width: 90%;
 	margin-left: 5%;
-	border-style: double;
-	border-color: black;
-	border-width: 5px;
 }
 	
 
@@ -205,25 +203,25 @@ h2 {
    
 #ship {
 	position: absolute;
-	top: 30px;
-	left: 50%;
-	z-index: 1;
-	width: 300px;
-	height: 300px;
+	top: 5%;
+	left: 35%;
+	z-index: 0;
+	width: 40%;
+	height: 40vh;
 }
 	
 #mainbody {
 	background-image: url("curacao.jpg");
+	height: 100%;
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .container {
-    max-width: 66%;
+    max-width: 75%;
     margin: 0 auto;
     background-color: #fff;
-    padding: 30px;
+    padding: 1vw;
 
 }
 		
@@ -237,17 +235,17 @@ h2 {
 
 .character-list h2 {
 	font-family: Verdana;
-	font-size: 30px;
+	font-size: 3vw;
 }
 
 .character-list ul {
-	font-size: 20px;
+	font-size: 2vw;
 	font-family: arial;
 	text-align: justify;
 }
 
 .container p {
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: arial;
 	text-align: justify;
 	padding-left: 15%;
@@ -261,27 +259,25 @@ h2 {
     height: 80%;
     width: 90%;
 	margin-left: 5%;
-	border-style: double;
-	border-color: black;
-	border-width: 5px;
 }
 
 .button {
-	width: 700px;
+	width: 25 vw;
 	height: 50px;
+	padding: 5px;
 }
 
 .button a {
 	font-family: Verdana;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 2vw;
 	color: #FAF2E6;
 	text-shadow: 0 0 5px black;
 	border-radius: 20px;
 	border-style: double;
 	border-color: #FAF2E6;
-	border-width: 10px;
+	border-width: 1vw;
 	background-color: #BB652C;
 }
 
@@ -302,3 +298,23 @@ h2 {
 .button a:hover {
 	color: white;
 }
+
+.legend {
+  padding: 10px;
+  font: white;
+  background: black;
+  line-height: 24px;
+  color: #555;
+}
+
+.legend i {
+  width: 20px;
+  float: left;
+}
+
+.legend i.icon {
+  background-size: 18px;
+  background-color: black;
+  height: 20px;
+}
+
