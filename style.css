@@ -182,6 +182,7 @@ h2 {
 
 
 .popupcontainer {
+	min-height: 13vw;
 	width: 45vw;
 	height: fit-content;
 	font-size: 12px;
