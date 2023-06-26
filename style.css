@@ -171,7 +171,7 @@ h2 {
 }
 
 #popuppic {
-	height: 12vw;
+	max-height: 12vw;
 	float: right;
 	padding-right: 10px;
 	padding-left: 10px;
