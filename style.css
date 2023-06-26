@@ -172,6 +172,7 @@ h2 {
 
 #popuppic {
 	height: 12vw;
+	width: auto;
 	float: right;
 	padding: 5px 5px 5px 5px;
 }
@@ -181,7 +182,6 @@ h2 {
 	width: 45vw;
 	height: fit-content;
 	font-size: 1.2vw;
-	max-width: 500px;
 }
 
 
